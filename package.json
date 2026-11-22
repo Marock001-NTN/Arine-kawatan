@@ -1,0 +1,15 @@
+{
+  "name": "android-game-starter",
+  "version": "0.1.0",
+  "description": "HTML5 + Capacitor Android game starter with GitHub Actions auto-build APK",
+  "private": true,
+  "scripts": {
+    "cap:add": "npx cap add android",
+    "cap:sync": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/cli": "^6.2.0",
+    "@capacitor/core": "^6.2.0"
+  }
+}
